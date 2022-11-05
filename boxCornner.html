@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .x{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-left: 5px;
+            text-align: center;
+            line-height: 100px;
+            color: whitesmoke;
+        }
+        .x1{
+    
+            background-color: green;
+            border-radius: 100px;
+        }
+        .x2{
+            background-color: rgb(68, 81, 226);
+            border-top-right-radius:100px ;
+            border-bottom-left-radius:100px ;
+        }
+        .x3{
+            background-color: rgb(203, 25, 25);
+        }
+        .x4{
+            background-color: rgb(138, 248, 221);
+            border-top-left-radius:100px ;
+            border-bottom-right-radius:100px ;
+        }
+        .x5{
+            background-color: rgb(255, 157, 11);
+            transition-property: background-color;
+            transition-duration: 3s;
+        }
+        .x5:hover{
+            background-color: purple;
+        }
+
+        .container{
+            margin:50px auto;
+            width: 300px;
+            height: 300px;
+            /* background-color: red; */
+            position: relative;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box1{
+           background-color: greenyellow;
+           border-top-right-radius:100px ;
+           border-bottom-left-radius:100px ;
+        }
+        .box2{
+           background-color: rgb(54, 47, 255);
+           top: 0px;
+           right: 0px;
+           border-top-left-radius:100px ;
+           border-bottom-right-radius:100px ;
+        }
+        .box3{
+           background-color: rgb(231, 47, 255);
+           bottom: 0px;
+           left: 0px;
+           border-top-left-radius:100px ;
+           border-bottom-right-radius:100px ;
+        }
+        .box4{
+           background-color: yellow;
+           bottom: 0px;
+           right: 0px;
+           border-top-right-radius:100px ;
+           border-bottom-left-radius:100px ;
+        }
+        .box5{
+           background-color:rgb(255, 157, 11);
+           top: 100px;
+           left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="x x1">a</div>
+    <div class="x x2">b</div>
+    <div class="x x3">c</div>
+    <div class="x x4">d</div>
+    <div class="x x5">e</div>
+
+    <div class="container">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+        <div class="box5 box"></div>
+    </div>
+</body>
+</html>

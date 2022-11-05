@@ -1,0 +1,26 @@
+box cornners 
+
+ border-top-right-radius:100px ;
+ border-bottom-left-radius:100px ;
+note.>> jitan width hight h wk squre ...utna hi border-radius dene par vo ek cuercal ban jata h
+ 
+
+center karne ke liye two line
+
+ text-align:center
+ line-hight:100px	>> px utna hi dena h jitna hight and width h
+
+Hover 
+
+the chang will be in some seconds ....
+-- css transition
+	1.rule-- trasition properties alweys write in state 1( first bloclk me).
+	
+	.x5{
+            background-color: rgb(255, 157, 11);
+            transition-property: background-color;        >>>>> [its call state 1 || first block]
+            transition-duration: 3s;
+        }
+        .x5:hover{
+            background-color: purple;			 >>>>> [its call state 2|| second block]
+        }
